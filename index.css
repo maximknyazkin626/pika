@@ -15,6 +15,7 @@
   height: 500px;
   /* background-color: rgba(172, 255, 47, 0.493); */
   background-image: url("images/background.png");
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -32,9 +33,14 @@
 
 .sandshrew {
   width: 80%;
+  display: flex;               
+  margin-right: auto;
+  margin-left: 15%;
+  margin-top: 15%;
 }
 
 .text-counter {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+  width: 700px;
 }
